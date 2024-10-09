@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "reproduction-for-issue-31643",
+    "slug": "snack-e7a43fbe-762e-426a-8a80-36a281258382",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Native module thrown exception does not get caught by the proxy-bindings but crashes the app natively instead."
+  }
+}
